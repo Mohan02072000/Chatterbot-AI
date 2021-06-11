@@ -1,0 +1,5 @@
+## This is the Documentation file for Chatterbot conversational AI##
+text_to_audio():takes two arguments. One is the message, other is an integer for voice,0 for male, 1 for female.
+audio_to_text():takes no arguments. If triggered launches the speech recognition module . Returns the data in string format.
+ai():takes one string argument. returns response from chatterbot AI. if encounters "learn" word from the user it records the previous two conversation and learns them instantly.
+repeater():takes one integer argument for voice .0 fro male 1 for female. Repeats what you say in its own accent.
