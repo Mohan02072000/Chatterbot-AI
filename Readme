@@ -1,0 +1,12 @@
+##Requirements:
+import pyttsx3 
+import speech_recognition as sr
+from nltk.tokenize import word_tokenize
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
+import os
+from chatterbot.trainers import ChatterBotCorpusTrainer
+
+##Readme##
+This is the introduction to the first conversational AI I Built. It is capable to record two previous conversations, and learn them if commanded to learn. It works offline, on the local machine
+except for the speech recognition which uses google web services which is free. You can fiddle around with it or use it on your projects.
